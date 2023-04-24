@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+    padding: 20px;
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+    gap: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button {
+    padding: 10px;
+    border: 4px solid #1F2937;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #1F2937;;
+}
+
+
+li, .imgP, .data {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 16px;
+    /* margin-right: 20px;
+    margin-top: 10px;   */
+    text-align: center; 
+    
+}
+
+.img {
+    width: 290px;
+    height: auto; 
+    border: 4px solid #1F2937;
+    border-radius: 20px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    /* margin: 40px; */
+}
+
+.zima, .prolece, .leto, .jesen {
+    width: 20%;
+    height: 20vh;
+    border: 4px solid white; 
+    border-radius: 10%;
+    
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+    background-color: whitesmoke;
+    border: 4px solid #1F2937;; 
+    border-radius: 25px;
+    /* width: 100%; */
+   
+}
+
+
+
+.quote {
+    background-color: teal;
+    padding: 10px;
+    border: 4px solid #1F2937;; 
+    border-radius: 25px;
+    font-family: "Lucida Console", "Monospace", monospace;
+    font-size: 16px;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.containerImg img{
+    width:100%;
+}
